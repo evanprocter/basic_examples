@@ -1,0 +1,6 @@
+battery_level = input("What's the current battery level? ")
+battery_level = int(battery_level)
+warning_level = 15
+
+if battery_level < warning_level:
+    print("Time to plug in!")
